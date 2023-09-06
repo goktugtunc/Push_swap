@@ -16,22 +16,9 @@ void	sortalgorithm(t_list *data)
 {
 	if (data->lena == 1)
 		return ;
-	//else if (data->lena == 3)
-		//threealgorithm(data);
-	//else if (data->lena == 5)
-	//	fivealgorithm(data);
 	else
 	{
-		//ft_getmaxbits(data);
-		//radix_sort(data);
 		algorithmtwo(data);
-	}
-	int i;
-	i = 0;
-	while (i < data->lena)
-	{
-		printf("%d", data->a[i]);
-		i++;
 	}
 }
 
