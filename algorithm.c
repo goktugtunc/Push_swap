@@ -12,35 +12,6 @@
 
 #include "push_swap.h"
 
-//int	threealgorithm(t_list *data)
-//{
-//	while (issorted(data) == 0)
-//	{
-//		if (data->a[0] > data->a[1])
-//			swapa(data);
-//		if (data->a[0] < data->a[data->lena - 1])
-//			rotatea(data);
-//		else
-//			revrotatea(data);
-//	}
-//	return (0);
-//}
-
-int	findmax(t_list *data)
-{
-	int	i;
-
-	i = 0;
-	data->maxindex = 0;
-	while (data->a[i])
-	{
-		if (data->a[data->maxindex] < data->a[i])
-			data->maxindex = i;
-		i++;
-	}
-	return (0);
-}
-
 void	findmin(t_list *data)
 {
 	int	i;
